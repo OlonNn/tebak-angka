@@ -12,8 +12,8 @@ while (tanya) {
     );
     console.log(p);
 
-    var y = 10;
-    var bot = Math.floor(Math.random() * y) + 1;
+    var nilairandom = 10;
+    var bot = Math.floor(Math.random() * nilairandom) + 1;
 
     hasil = "";
     if (p == bot) {
@@ -31,7 +31,7 @@ while (tanya) {
     chance--;
   }
 
-  tanya = confirm("Lagi?");
+  tanya = confirm("Ingin lanjut bermain??");
 }
 
 alert("TERIMA KASIH TELAH BERMAIN");
